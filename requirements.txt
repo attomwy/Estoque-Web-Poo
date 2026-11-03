@@ -1,0 +1,15 @@
+ESTOQUEWEB - REQUISITOS (nao e um arquivo pip)
+
+Sistema: Windows 10/11 com PowerShell 5.1 ou superior
+Java: JDK 17 ou superior
+Maven: Apache Maven 3.10.0 ou compativel
+Spring Boot: 3.3.13
+Banco H2: driver gerenciado pelo Maven (arquivo local)
+Banco MySQL: driver gerenciado pelo Maven; requer MySQL Server iniciado
+Portas: HTTP 8080; MySQL 3306 quando selecionado
+Internet: necessaria na primeira execucao para dependencias Maven;
+  o inicializador tenta obter Java e Maven portateis se estiverem ausentes.
+
+As bibliotecas Java estao definidas no pom.xml.
+Nao execute pip install -r requirements.txt.
+Nenhuma senha deve ser incluida neste arquivo.

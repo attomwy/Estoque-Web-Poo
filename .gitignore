@@ -1,0 +1,14 @@
+# Compilacao e ferramentas locais
+target/
+.ferramentas/
+.vscode/
+.idea/
+*.log
+# Banco H2 e arquivos locais
+dados/*.mv.db
+dados/*.lock.db
+dados/*.trace.db
+# Credenciais locais
+.env
+*.local.properties
+application-local.properties

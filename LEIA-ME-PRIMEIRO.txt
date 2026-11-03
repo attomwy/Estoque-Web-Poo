@@ -1,0 +1,24 @@
+ESTOQUEWEB - INICIO RAPIDO
+
+1. Extraia o ZIP completo.
+2. Execute INICIAR_ESTOQUEWEB.cmd.
+3. Aguarde a mensagem de inicializacao do Spring Boot.
+4. Acesse http://localhost:8080 (o navegador sera aberto quando possivel).
+5. A janela permanece aberta enquanto o sistema funciona.
+6. Para encerrar, pressione Ctrl+C na janela do PowerShell.
+
+BANCO ATIVO: MYSQL
+MySQL Server deve estar ativo na porta 3306.
+O inicializador solicita usuario e senha sem gravar credenciais no projeto.
+O banco estoqueweb sera criado se o usuario tiver permissao.
+
+O programa pode precisar de internet para baixar dependencias.
+Nenhum instalador do projeto tenta alterar servicos do Windows.
+Caso o sistema bloqueie downloads ou execucao, siga as politicas
+locais e utilize os requisitos disponiveis.
+
+Consulte README.md para detalhes.
+
+ACESSO WEB: somente no computador local (127.0.0.1).
+Se o Windows pedir liberacao de firewall para o Java,
+nao e necessario permitir acesso de outros computadores.
